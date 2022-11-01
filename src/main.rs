@@ -1,4 +1,4 @@
-//! markline: markable line picker for stdin line input
+//! markline: markable line picker from stdin to stdout
 //!
 //! Example:
 //!
