@@ -28,7 +28,7 @@
 //! 2 bravo
 //! 3 charlie
 //! ```
-//! 
+//!
 //! When you're done, type ENTER or ESC to finish.
 //!
 //! The command outputs each line:
@@ -47,9 +47,9 @@
 //!
 //! Then you can pipe the results to any other command, such as a filter,
 //! that you can use to show just the tasks that are done.
-//! 
+//!
 //! Run:
-//! 
+//!
 //! ```sh
 //! cat example.txt | markline | grep '^x'
 //! ```
@@ -70,6 +70,17 @@
 //! x alpha
 //! x charlie
 //! ```
+//!
+//!
+//! ## Install
+//!
+//! Install markline as a typical Rust crate:
+//!
+//! ```sh
+//! cargo install markline
+//! ```
+//!
+// If people want other ways, such as with package managers, we welcome help to create these ways.
 //!
 //!
 //! ## Purpose
@@ -129,9 +140,9 @@ use args::Args;
 fn main() {
     env_logger::init();
     let args = crate::clap::clap();
-    log::info!("checkline\nargs: {:?}", args);
+    log::info!("markline\nargs: {:?}", args);
     if args.verbose > 0 {
-        println!("checkline\nargs: {:?}", args)
+        println!("markline\nargs: {:?}", args)
     }
     let mut c = cursive::default();
     let row_count = ui::initialize(&mut c);

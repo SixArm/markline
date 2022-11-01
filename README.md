@@ -71,6 +71,16 @@ x alpha
 x charlie
 ```
 
+## Install
+
+Install markline as a typical Rust crate:
+
+```sh
+cargo install markline
+```
+
+If people want other ways, such as with package managers, we welcome help to create these ways.
+
 
 ## Purpose
 
