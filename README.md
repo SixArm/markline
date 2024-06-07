@@ -122,9 +122,9 @@ We welcome constructive criticism and ideas for improvements.
 ## Tracking
 
 * Program: markline
-* Version: 1.1.1
+* Version: 1.1.2
 * License: MIT OR BSD OR GPL-2.0 OR GPL-3.0
 * Created: 2022-10-15T12:24:50Z
-* Updated: 2022-10-31T23:02:49Z
+* Updated: 2024-06-07T17:43:21Z
 * Website: https://github.com/sixarm/markline
 * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
